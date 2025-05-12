@@ -51,6 +51,7 @@ article {
 }
 
 figure {
+  font-style: italic;
   padding: 5px;
   margin: 5px;
   background-color: #c2b7ff;
