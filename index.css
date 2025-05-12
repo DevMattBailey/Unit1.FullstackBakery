@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  font-size: 20px;
+  padding:20px;
+  margin: 20px;
+  background-color: f7fff6;
+}
+
+header {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #000000;
+  color: #000000;
+  text-align: center;
+  background-image: linear-gradient(to right, #add8e6, #90ee90);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  box-shadow: 0 0 10px #00000080;
+  text-shadow: 2px 2px 4px #00000080;
+  border-image: linear-gradient(to right, #add8e6, #90ee90) 1;
+  border-image-slice: 1;
+  border-image-width: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  justify-content: space-evenly;
+  display: flex;;
+  padding: 10px;
+  margin: 10px;
+  gap: 1ch;
+  border-style: none;
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+article {
+  padding: 10px;
+  margin: 10px;
+}
+
+figure {
+  padding: 5px;
+  margin: 5px;
+  background-color: #c2b7ff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #000000;
+}
+
+
+aside {
+  flex-direction: column;
+  display: flex;
+  background-color: #c2b7ff;
+  justify-content: space-evenly;
+  padding: 2px;
+  margin: 2px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #000000;
+  max-width: fit-content;
+  max-height: fit-content;
+  list-style-type: none;
+  list-style-position: inside;
+} 
+
+ul {
+  padding: 0;
+  margin: 0;
+  color:#000000;
+}
+
+li {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  margin: 5px;
+  background-color: #d2f7fd;
+  border-radius: 5px;
+}
+
+footer {
+  Position: Fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  margin: 7px;
+  background-color: #add8e6;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: #000000;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(to right, #add8e6, #90ee90);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  box-shadow: 0 0 10px #00000080;
+  text-shadow: 2px 2px 4px #00000080;
+}
